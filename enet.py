@@ -2,7 +2,7 @@ import keras
 from keras.models import Model
 from keras.layers import Input, merge
 from keras.layers import Dense, Activation, Flatten, BatchNormalization
-from keras.layers import Conv2D, MaxPooling2D, ZeroPadding2D, AveragePooling2D
+from keras.layers import Conv2D, MaxPooling2D, ZeroPadding2D
 
 
 def initial(input):
