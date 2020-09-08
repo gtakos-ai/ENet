@@ -12,12 +12,12 @@ def initial(input):
     return concat
 
 def dilated_bottleneck(input, output_filters, downsample, dilation, dropout):
-    
+    filter = output_filters//4
     if (downsample):
         stride = 2
     else:
         stride = 1
-        
+       
         
     return
 
