@@ -32,3 +32,4 @@ def full_conv():
 
 
 #combining to bottleneck layers
+#add together
