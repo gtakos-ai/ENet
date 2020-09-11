@@ -23,6 +23,7 @@ def dilated_bottleneck(input, output_filters, downsample, dilation, dropout):
 
 def asymmetric_bottleneck():
     x = Conv2D(filters=reduce, kernel_size=(1,5), padding='same', use_bias=False)
+    x = Conv2D(filters=reduce, kernel_size=(5,1), padding='same', use_bias=False)
     return
 
 def upsampling_bottleneck():
