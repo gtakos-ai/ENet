@@ -18,7 +18,7 @@ def dilated_bottleneck(input, output_filters, downsample, dilation, dropout):
     else:
         stride = 1
        
-        
+    
     return
 
 def asymmetric_bottleneck():
