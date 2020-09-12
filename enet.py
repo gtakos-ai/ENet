@@ -32,6 +32,5 @@ def upsampling_bottleneck():
 def full_conv():
     return
 
-
 #combining to bottleneck layers
 #add together
